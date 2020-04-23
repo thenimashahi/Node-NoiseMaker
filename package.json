@@ -1,0 +1,24 @@
+{
+  "name": "node-noisemaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenimashahi/Node-NoiseMaker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenimashahi/Node-NoiseMaker/issues"
+  },
+  "homepage": "https://github.com/thenimashahi/Node-NoiseMaker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "tone": "^13.8.25"
+  }
+}
