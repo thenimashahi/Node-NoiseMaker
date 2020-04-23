@@ -4,6 +4,7 @@ var express = require('express');
 var exphbs  = require('express-handlebars');
 var app = express();
 
+
 //GET , POST, PUT, DELETE
 //(READ, CREATE, UPDATE, DELETE )
 
@@ -20,6 +21,7 @@ app.use(express.static("public"));
 //home route
 app.get('/', (req, res) => {
 
+    
 
     res.render('home');
 
